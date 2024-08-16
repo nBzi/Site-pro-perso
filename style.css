@@ -10,6 +10,11 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
 }
+iframe{
+    width: 100%;
+    border: none;
+    height: 350px;
+}
 div.cover{
     background:url(cover_overlay.png) no-repeat center/100% 100%,url(cover.jpg) no-repeat center/cover;
     height: 360px;
@@ -78,7 +83,7 @@ a.contact-button:hover{
     overflow: auto;
 }
 div.section-grise1{
-    background: url(triangle2white.svg) no-repeat center bottom/100%;
+    background: url(triangle2white.svg) no-repeat center bottom -1px/100%;
     background-color: var(--color2);
     padding-bottom: 70px;
 }
