@@ -147,3 +147,36 @@ p.frame-title{
     margin-bottom: 20px;
     text-align: center;
 }
+/* Portfolio */
+.portfolio-header{
+    height: 90px;
+    background: url(header.jpg) no-repeat center/cover;
+    position: relative;
+}
+.portfolio-header-title{
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+    padding-top: 4px;
+    padding-left: 8px;
+}
+h1.portfolio{
+    font-size: 46px;
+    color: black;
+    line-height: 1;
+    padding-top: 10px;
+
+}
+h2.portfolio{
+    font-size: 26px;
+    font-weight: normal;
+    margin-bottom: 0px;
+}
+a.portfolio-back{
+    color: var(--color1);
+    margin-left: -10px;
+}
+img.portfolio{
+    width: 70%;
+    max-width: 550px;
+}
